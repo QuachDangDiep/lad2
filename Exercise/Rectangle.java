@@ -1,6 +1,4 @@
-package Exercise2;
-
-import java.sql.SQLOutput;
+package Exercise;
 
 public class Rectangle {
     private int width;

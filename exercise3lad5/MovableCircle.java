@@ -12,22 +12,22 @@ public class MovableCircle implements  Movable{
 
     @Override
     public void moveUp() {
-        center.moveUp();
+        this.center.moveUp();
     }
 
     @Override
     public void moveDown() {
-        center.moveDown();
+        this.center.moveDown();
     }
 
     @Override
     public void moveLeft() {
-        center.moveLeft();
+        this.center.moveLeft();
     }
 
     @Override
     public void moveRight() {
-        center.moveRight();
+        this.center.moveRight();
     }
 
     @Override

@@ -5,5 +5,6 @@ public class Main {
         MovablePoint movablePoint=new MovablePoint(0,0,8,8);
         MovableCircle movableCircle =new MovableCircle(6,movablePoint);
         System.out.println(movableCircle.toString());
+        System.out.println(movablePoint.toString());
     }
 }

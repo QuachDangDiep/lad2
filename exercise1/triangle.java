@@ -3,7 +3,7 @@ package exercise1;
 public class triangle extends shape {
     private double base;
     private double height;
-    public triangle(int base,int height){
+    public triangle(double base,double height){
         this.base=base;
         this.height=height;
     }

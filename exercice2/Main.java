@@ -5,5 +5,6 @@ public class Main {
         MovablePoint movablePoint=new MovablePoint(0,0);
         movablePoint.moveUp();
         System.out.println("y: "+movablePoint.gety());
+        System.out.println("x: "+movablePoint.getX());
     }
 }

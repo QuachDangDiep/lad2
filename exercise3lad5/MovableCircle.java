@@ -1,6 +1,6 @@
 package exercise3lad5;
 
-public class MovableCircle implements  Movable{
+public class MovableCircle implements Movable{
     private int radius;
     private MovablePoint center;
 
@@ -32,9 +32,6 @@ public class MovableCircle implements  Movable{
 
     @Override
     public String toString() {
-        return "MovableCircle{" +
-                "radius=" + radius +
-                ", center=" + center +
-                '}';
+        return super.toString();
     }
 }

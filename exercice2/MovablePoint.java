@@ -1,36 +1,39 @@
 package exercice2;
 
-public class MovablePoint implements Movable {
+public class MovablePoint implements Movable{
     private double x;
     private double y;
-    public MovablePoint(double x, double y){
-        this.x=x;
-        this.y=y;
+
+    public MovablePoint(double x, double y) {
+        super();
+        this.x = x;
+        this.y = y;
     }
-    public double getX(){
+    public double getX() {
         return x;
     }
-    public double gety(){
+
+    public double getY() {
         return y;
     }
 
     @Override
     public void moveUp() {
-        y++;
+        this.y++;
     }
 
     @Override
     public void moveDown() {
-        y--;
+        this.y--;
     }
 
     @Override
     public void moveLeft() {
-        x--;
+        this.x--;
     }
 
     @Override
     public void moveRight() {
-        x++;
+        this.x++;
     }
 }

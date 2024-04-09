@@ -7,6 +7,7 @@ public class MovablePoint implements Movable{
     private int ySpeed;
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
+        super();
         this.x = x;
         this.y = y;
         this.xSpeed = xSpeed;
@@ -34,13 +35,7 @@ public class MovablePoint implements Movable{
     }
 
     @Override
-    public String
-    toString() {
-        return "MovablePoint{" +
-                "x=" + x +
-                ", y=" + y +
-                ", xSpeed=" + xSpeed +
-                ", ySpeed=" + ySpeed +
-                '}';
+    public String toString() {
+        return "MovablePoint{x=" + this.x + ", y=" + this.y + ", xSpeed=" + this.xSpeed + ",ySpeed=" + this.ySpeed;
     }
 }

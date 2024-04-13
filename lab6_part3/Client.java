@@ -1,5 +1,6 @@
 package lab6_part3;
 
+/*
 public class Client {
     public static void main(String[] args) {
         final int NUMBER_TRIANGLES = 5;
@@ -30,3 +31,4 @@ public class Client {
 
     }
 }
+*/
